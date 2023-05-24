@@ -1,0 +1,10 @@
+nav{
+    background: #2d3951;
+    padding: 12px 5px;
+    color: #fff;
+}
+
+nav h3{
+    padding-left: 30px;
+    font-weight: 500;
+}

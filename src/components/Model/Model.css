@@ -1,0 +1,101 @@
+.overlay{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.788);
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-model{
+    background: #fff;
+    width: 600px;
+    min-height: 500px;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+}
+
+.model-cross{
+    position: absolute;
+    top:10px;
+    right: 20px;
+    font-weight: 900;
+    font-size: 22px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.model-header{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.model-content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.model-input-title{
+    font-weight: 300;
+}
+
+.model-input{
+    padding: 5px 10px;
+    outline: none;
+    font-size: 17px;
+    font-weight: 300;
+    width: 95%;
+}
+
+.model-raw{
+    margin-bottom: 15px;
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.check-raw{
+    margin-top: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.save-btn,.cancel-btn{
+    padding: 10px 30px;
+    background: #24a68a;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: inset 1px 1px 5px rgb(32, 46, 16),1px 1px 3px rgba(32, 46, 16, 0.514);
+    cursor: pointer;
+}
+
+.cancel-btn{
+    background: lightgray;
+}
+
+.error-message{
+    color: red;
+    font-size: 13px;
+}
+
+.model-input-desc{
+    font-weight: 300;
+    font-size: 13px;
+}
